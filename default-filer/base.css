@@ -1,0 +1,909 @@
+html {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+body {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+div {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+span {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+applet {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+object {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+iframe {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h1 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h2 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h3 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h4 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h5 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h6 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+p {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+blockquote {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+pre {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+a {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+abbr {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+acronym {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+address {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+big {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+cite {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+code {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+del {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dfn {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+em {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+img {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ins {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+kbd {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+q {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+s {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+samp {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+small {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+strike {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+strong {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+sub {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+sup {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tt {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+var {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+b {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+u {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+i {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+center {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dl {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dt {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dd {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ol {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ul {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+li {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+fieldset {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+form {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+label {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+legend {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+table {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+caption {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tbody {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tfoot {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+thead {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tr {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+th {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+td {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+article {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+aside {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+canvas {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+details {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+embed {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+figure {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+figcaption {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+footer {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+header {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+hgroup {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+menu {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+nav {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+output {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ruby {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+section {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+summary {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+time {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+mark {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+audio {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+video {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+body {
+	line-height: 1em;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+.special-quote {
+	quotes: none;
+}
+.special-quote::before {
+	content: none;
+}
+.special-quote::after {
+	content: none;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+* {
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+html.responsive {
+	-ms-overflow-x: hidden;
+}
+.responsive body {
+	-ms-overflow-x: hidden;
+}
+body {
+	font: 13px/1.65em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: 100%;
+}
+.lucida-sans-websave {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+.georgia-websave {
+	font-family: "Georgia", "Times New Roman", Times, serif;
+}
+.arial-websave {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+.verdana-websave {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.helvetica-websave {
+	font-family: Helvetica, "HelveticaNeue", "Helvetica Neue", Arial, Verdana, sans-serif;
+}
+.helvetica-neue-websave {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+h1 {
+	font-weight: 600;
+}
+h2 {
+	font-weight: 600;
+}
+h3 {
+	font-weight: 600;
+}
+h4 {
+	font-weight: 600;
+}
+h5 {
+	font-weight: 600;
+}
+h6 {
+	font-weight: 600;
+}
+#top h1 a {
+	color: inherit; font-weight: inherit; text-decoration: none;
+}
+#top h2 a {
+	color: inherit; font-weight: inherit; text-decoration: none;
+}
+#top h3 a {
+	color: inherit; font-weight: inherit; text-decoration: none;
+}
+#top h4 a {
+	color: inherit; font-weight: inherit; text-decoration: none;
+}
+#top h5 a {
+	color: inherit; font-weight: inherit; text-decoration: none;
+}
+#top h6 a {
+	color: inherit; font-weight: inherit; text-decoration: none;
+}
+#top h1 strong {
+	color: inherit;
+}
+#top h2 strong {
+	color: inherit;
+}
+#top h3 strong {
+	color: inherit;
+}
+#top h4 strong {
+	color: inherit;
+}
+#top h5 strong {
+	color: inherit;
+}
+#top h6 strong {
+	color: inherit;
+}
+h1 {
+	line-height: 1.1em; font-size: 34px; margin-bottom: 14px;
+}
+h2 {
+	line-height: 1.1em; font-size: 28px; margin-bottom: 10px;
+}
+h3 {
+	line-height: 1.1em; font-size: 20px; margin-bottom: 8px;
+}
+h4 {
+	line-height: 1.1em; font-size: 18px; margin-bottom: 4px;
+}
+h5 {
+	line-height: 1.1em; font-size: 16px;
+}
+h6 {
+	line-height: 1.1em; font-size: 14px;
+}
+.flex_column h1 a:hover {
+	text-decoration: underline;
+}
+.flex_column h2 a:hover {
+	text-decoration: underline;
+}
+.flex_column h3 a:hover {
+	text-decoration: underline;
+}
+.flex_column h4 a:hover {
+	text-decoration: underline;
+}
+.flex_column h5 a:hover {
+	text-decoration: underline;
+}
+.flex_column h6 a:hover {
+	text-decoration: underline;
+}
+p + h1 {
+	margin-top: 1.5em;
+}
+p + h2 {
+	margin-top: 1.5em;
+}
+p + h3 {
+	margin-top: 1.5em;
+}
+p + h4 {
+	margin-top: 1.5em;
+}
+p + h5 {
+	margin-top: 1.5em;
+}
+p + h6 {
+	margin-top: 1.5em;
+}
+p {
+	margin: 0.85em 0px;
+}
+p img {
+	margin: 0px;
+}
+p.lead {
+	line-height: 27px; font-size: 21px;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+b {
+	font-weight: bold;
+}
+small {
+	font-size: 80%;
+}
+hr {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(221, 221, 221); margin: 10px 0px 30px; border-image: none; height: 0px; clear: both;
+}
+blockquote {
+	line-height: 1.5em; padding-left: 20px; font-size: 1.23em; margin-right: 1em; margin-bottom: 1em; border-left-width: 7px; border-left-style: solid;
+}
+blockquote small {
+	font-size: 12px;
+}
+blockquote cite {
+	font-size: 12px;
+}
+blockquote small a {
+	font-size: 12px;
+}
+blockquote cite a {
+	font-size: 12px;
+}
+blockquote a small {
+	font-size: 12px;
+}
+blockquote a cite {
+	font-size: 12px;
+}
+mark {
+	color: inherit; background-color: transparent;
+}
+a {
+	outline: 0px; text-decoration: none; max-width: 100%;
+}
+a:hover {
+	outline: 0px; text-decoration: underline;
+}
+a:focus {
+	outline: 0px; text-decoration: underline;
+}
+a:visited {
+	outline: 0px; text-decoration: underline;
+}
+p a {
+	line-height: inherit;
+}
+p a:visited {
+	line-height: inherit;
+}
+a.avianolink {
+	cursor: default;
+}
+.avianolink a {
+	cursor: default;
+}
+#top .avia_hidden_link_text {
+	display: none;
+}
+ul {
+	margin-bottom: 20px;
+}
+ol {
+	margin-bottom: 20px;
+}
+ul {
+	list-style: none; margin-left: 7px;
+}
+ol {
+	list-style: decimal; margin-left: 15px;
+}
+ol {
+	
+}
+ul.square {
+	
+}
+ul.circle {
+	
+}
+ul.disc {
+	
+}
+ul.square {
+	list-style: square;
+}
+ul.circle {
+	list-style: circle;
+}
+ul.disc {
+	
+}
+.entry-content-wrapper ul {
+	
+}
+ul ul {
+	margin: 4px 0px 5px 30px;
+}
+ul ol {
+	margin: 4px 0px 5px 30px;
+}
+ol ol {
+	margin: 4px 0px 5px 30px;
+}
+ol ul {
+	margin: 4px 0px 5px 30px;
+}
+ul ul li {
+	margin-bottom: 6px;
+}
+ul ol li {
+	margin-bottom: 6px;
+}
+ol ol li {
+	margin-bottom: 6px;
+}
+ol ul li {
+	margin-bottom: 6px;
+}
+.entry-content-wrapper li {
+	padding: 3px 0px; margin-left: 1em;
+}
+.entry-content-wrapper div li {
+	text-indent: 0px;
+}
+.entry-content-wrapper .borderlist > li:first-child {
+	border-top-color: currentColor; border-top-width: 1px; border-top-style: solid;
+}
+.entry-content-wrapper .borderlist > li {
+	margin: 0px; padding: 5px 0px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid; list-style-position: outside;
+}
+img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; height: auto; display: inline-block; max-width: 100%; image-rendering: optimizeQuality;
+}
+a img {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; height: auto; display: inline-block; max-width: 100%; image-rendering: optimizeQuality;
+}
+input[type='submit'] {
+	padding: 9px 22px; border-radius: 0px; border: currentColor; border-image: none; cursor: pointer; -webkit-appearance: none;
+}
+#submit {
+	padding: 9px 22px; border-radius: 0px; border: currentColor; border-image: none; cursor: pointer; -webkit-appearance: none;
+}
+.button {
+	padding: 9px 22px; border-radius: 0px; border: currentColor; border-image: none; cursor: pointer; -webkit-appearance: none;
+}
+[data-av_icon]::before {
+	font-weight: normal; content: attr(data-av_icon); speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+#top form {
+	margin-bottom: 20px;
+}
+#top fieldset {
+	margin-bottom: 20px;
+}
+#top .input-text {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='text'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='input'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='password'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='email'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='number'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='url'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='tel'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='search'] {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top textarea {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top select {
+	background: rgb(255, 255, 255); font: 1em/normal "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px 0px 20px; padding: 8px 6px; border-radius: 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 100%; color: rgb(119, 119, 119); display: block; font-size-adjust: none; font-stretch: normal; -webkit-appearance: none;
+}
+#top input[type='text']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top input[type='password']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top input[type='email']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top input[type='number']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top input[type='url']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top input[type='tel']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top input[type='search']:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top textarea:focus {
+	color: rgb(85, 85, 85); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+}
+#top textarea {
+	line-height: 1.5em; min-height: 60px;
+}
+#top label {
+	font-size: 0.92em; font-weight: bold;
+}
+#top legend {
+	font-size: 1.2em; font-weight: normal; display: block;
+}
+#top select {
+	width: 100%;
+}
+#top input[type='checkbox'] {
+	display: inline;
+}
+#top label span {
+	color: rgb(68, 68, 68); font-size: 13px; font-weight: normal;
+}
+#top legend span {
+	color: rgb(68, 68, 68); font-size: 13px; font-weight: normal;
+}
+#top textarea {
+	width: 100%;
+}
+#top #wrap_all .valid .text_input {
+	border: 1px solid rgb(154, 166, 0); border-image: none;
+}
+#top #wrap_all .valid .text_area {
+	border: 1px solid rgb(154, 166, 0); border-image: none;
+}
+#top #wrap_all .valid .select {
+	border: 1px solid rgb(154, 166, 0); border-image: none;
+}
+#top #wrap_all .error .text_input {
+	border: 1px solid rgb(223, 101, 62); border-image: none;
+}
+#top #wrap_all .error .text_area {
+	border: 1px solid rgb(223, 101, 62); border-image: none;
+}
+#top #wrap_all .error .select {
+	border: 1px solid rgb(223, 101, 62); border-image: none;
+}
+#top #wrap_all .ajax_alert .text_input {
+	border: 1px solid rgb(255, 182, 40); border-image: none;
+}
+#top #wrap_all .ajax_alert .text_area {
+	border: 1px solid rgb(255, 182, 40); border-image: none;
+}
+#top #wrap_all .ajax_alert .select {
+	border: 1px solid rgb(255, 182, 40); border-image: none;
+}
+#top #wrap_all .valid .input_checkbox_label {
+	color: rgb(154, 166, 0);
+}
+#top #wrap_all .error .input_checkbox_label {
+	color: rgb(223, 101, 62);
+}
+table {
+	margin: 0px 0px 20px; padding: 0px; width: 100%; font-size: 13px;
+}
+table caption {
+	padding: 0px 0px 5px; width: auto; text-align: right; font-size: 12px; font-style: italic;
+}
+th {
+	border-width: medium 1px 1px medium; border-style: none solid solid none; padding: 9px 12px; text-align: left; text-transform: uppercase; letter-spacing: 1.5px; font-weight: bold; border-top-color: currentColor; border-left-color: currentColor;
+}
+td {
+	border-width: medium 1px 1px medium; border-style: none solid solid none; padding: 9px 12px; font-size: 13px; border-top-color: currentColor; border-left-color: currentColor;
+}
+tr th:first-child {
+	border-left-width: 1px; border-left-style: solid;
+}
+tr td:first-child {
+	border-left-width: 1px; border-left-style: solid;
+}
+tr:first-child th {
+	border-top-width: 1px; border-top-style: solid;
+}
+tr:first-child td {
+	border-top-width: 1px; border-top-style: solid;
+}
+#top th.nobg {
+	background: none; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+pre {
+	border-width: 1px; border-style: solid; padding: 2em; transition:0.5s ease-in-out; left: 0px; width: 100%; text-transform: none; line-height: 2em; overflow: auto; clear: both; font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace; font-size: 12px; margin-bottom: 30px; position: relative; background-image: linear-gradient(rgba(0, 0, 0, 0.05) 50%, transparent 50%, transparent); background-size: 100% 4em; -webkit-transition: all ease-in-out 0.5s; -moz-transition: all ease-in-out 0.5s;
+}
+code {
+	font-family: Monaco, "Andale Mono", "Courier New", Courier, monospace;
+}
+iframe {
+	max-width: 100%;
+}
+object {
+	max-width: 100%;
+}
+embed {
+	max-width: 100%;
+}
+sup {
+	font-size: smaller; vertical-align: super;
+}
+sub {
+	font-size: smaller; vertical-align: sub;
+}
+.hidden {
+	top: 0px; visibility: hidden; position: absolute;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.clearboth {
+	clear: both;
+}
+.special_amp {
+	line-height: 0.5em; font-family: "Baskerville", "Palatino Linotype", "Palatino", "Times New Roman", serif; font-size: 1.3em; font-style: italic; font-weight: normal;
+}
+#top .noborder {
+	background: none; padding: 0px; border: currentColor; border-image: none;
+}
+#top .noborder img {
+	background: none; padding: 0px; border: currentColor; border-image: none;
+}
+.bg_container {
+	background-position: center; left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: -1; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;
+}
+.image-overlay {
+	background: rgb(255, 255, 255); width: 100%; height: 100%; position: absolute; z-index: 300; opacity: 0;
+}
+.avia_transform a .image-overlay {
+	transition:opacity 0.4s ease-in-out; -webkit-transition: opacity 0.4s ease-in-out; -moz-transition: opacity 0.4s ease-in-out;
+}
+.avia_transform a:hover .image-overlay {
+	opacity: 0.7 !important;
+}
+.image-overlay .image-overlay-inside {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.image-overlay .image-overlay-inside::before {
+	background: rgb(0, 0, 0); margin: -40px 0px 0px -40px; border-radius: 50px; left: 50%; top: 50%; width: 80px; height: 80px; text-align: center; color: rgb(255, 255, 255); line-height: 80px; position: absolute; z-index: 500;
+}
+.image-overlay .image-overlay-inside::before {
+	font-family: "entypo-fontello"; font-size: 18px; font-weight: normal; content: "\E869";
+}
+.image-overlay.overlay-type-extern .image-overlay-inside::before {
+	content: "\E832";
+}
+.image-overlay.overlay-type-video .image-overlay-inside::before {
+	content: "\E897";
+}
+#top .hide-inner-overlay .image-overlay-inside {
+	display: none;
+}
+body .alignleft {
+	margin: 4px 10px 0px 0px; float: left; display: block; position: relative;
+}
+.entry-content-wrapper a:hover .alignleft {
+	margin: 4px 10px 0px 0px; float: left; display: block; position: relative;
+}
+body .alignright {
+	margin: 4px 0px 0px 10px; float: right; display: block; position: relative;
+}
+.entry-content-wrapper a:hover .alignright {
+	margin: 4px 0px 0px 10px; float: right; display: block; position: relative;
+}
+body .aligncenter {
+	margin: 10px auto; padding: 10px 0px; clear: both; display: block; position: relative;
+}
+.entry-content-wrapper a:hover .aligncenter {
+	margin: 10px auto; padding: 10px 0px; clear: both; display: block; position: relative;
+}
+.alignleft img {
+	display: block;
+}
+.alignright img {
+	display: block;
+}
+#top .gallery a {
+	border: currentColor; border-image: none; display: block; position: relative; max-width: 100%;
+}
+#top .gallery a img {
+	border: currentColor; border-image: none; display: block; position: relative; max-width: 100%;
+}
+#top .gallery .gallery-item {
+	margin: 1px 1px 0px 0px; padding: 0px; width: 80px; height: 80px;
+}
+#top .gallery-caption {
+	display: none;
+}
+.bypostauthor {
+	
+}
+.gallery-icon {
+	margin: 0px;
+}
+.gallery-item {
+	margin: 0px;
+}
+.avia_textblock .gallery p {
+	display: none;
+}
+div .wp-caption {
+	border-width: 1px; border-style: solid; margin: 5px 15px 10px 0px; font-size: 11px; font-style: italic; position: relative; max-width: 100%;
+}
+#top .wp-caption img {
+	margin: 0px; padding: 5px; border: currentColor; border-image: none; width: 100%; display: block;
+}
+.wp-caption-text {
+	margin: 0px auto; padding: 3px 10px 5px; text-align: center; font-family: Georgia,"Times New Roman"; font-size: 11px; font-style: italic; float: none; display: block;
+}
+#top .wp-caption .wp-caption-dd {
+	margin: 0px auto; padding: 3px 10px 5px; text-align: center; font-family: Georgia,"Times New Roman"; font-size: 11px; font-style: italic; float: none; display: block;
+}
+#top .wp-caption.aligncenter {
+	margin: 5px auto 10px; padding: 0px;
+}
+#top .wp-caption.alignright {
+	margin: 4px 0px 0px 10px;
+}
+#top .wp-smiley {
+	border: currentColor; border-image: none; display: inline-block;
+}
+#wp-calendar td {
+	padding: 3px; text-align: center; font-size: 11px;
+}
+#wp-calendar th {
+	padding: 3px; text-align: center; font-size: 11px;
+}
+.avia_textblock .wp-playlist {
+	margin: 0px;
+}
+.wp-playlist-light .wp-playlist-item.wp-playlist-playing {
+	background: none;
+}
+.wp-playlist-current-item img {
+	border-radius: 500px;
+}
+.wp-playlist-current-item img[src$='media/audio.png'] {
+	background: rgb(255, 255, 255); border-radius: 0px;
+}
+.wp-playlist-item-meta.wp-playlist-item-title {
+	font-weight: bold;
+}

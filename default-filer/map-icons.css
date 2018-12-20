@@ -1,0 +1,1065 @@
+@font-face {
+	font-family: map-icons;
+	src: url(../fonts/map-icons.eot?#iefix) format("embedded-opentype"), url(../fonts/map-icons.woff) format("woff"), url(../fonts/map-icons.ttf) format("truetype"), url(../fonts/map-icons.svg#map-icons) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[data-icon]::before {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-variant: normal; font-weight: normal; content: attr(data-icon); speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.map-icon-map-pin {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-expand {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-fullscreen {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-square-pin {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-route-pin {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-sheild {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-liquor-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bicycle-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-hardware-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-insurance-agency {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-lawyer {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-real-estate-agency {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-art-gallery {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-campground {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bakery {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bar {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-amusement-park {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-aquarium {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-airport {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bank {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-car-rental {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-car-dealer {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-hospital {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-hair-care {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-gym {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-grocery-or-supermarket {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-general-contractor {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-pharmacy {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-point-of-interest {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-political {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-post-box {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-health {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-post-office {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-real-estate-agency-copy {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-hindu-temple {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-restaurant {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-female {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-male {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-zoo {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-veterinary-care {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-car-repair {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-university {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-travel-agency {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-transit-station {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-beauty-salon {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-electronics-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-search {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-zoom-out-alt {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-movie-rental {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-atm {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-jewelry-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-car-wash {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-unisex {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-rv-park {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-school {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-clothing-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-laundry {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-casino {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-place-of-worship {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-furniture-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-zoom-in-alt {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-zoom-in {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-department-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-fire-station {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-church {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-library {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-shopping-mall {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-local-government {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-spa {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-convenience-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-police {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-route {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-zoom-out {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-location-arrow {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-postal-code {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-locksmith {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-doctor {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-mosque {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-stadium {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-storage {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-movie-theater {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-electrician {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-moving-company {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-postal-code-prefix {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-crosshairs {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-compass {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-dentist {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-plumber {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-museum {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-finance {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-parking {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-courthouse {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-accounting {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-subway-station {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-natural-feature {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-florist {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-food {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-night-club {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-synagogue {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-taxi-stand {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-painter {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-train-station {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-pet-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-gas-station {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-funeral-home {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-cemetery {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bowling-alley {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-roofing-contractor {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-physiotherapist {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-embassy {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-city-hall {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bus-station {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-park {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-lodging {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-toilet {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-circle {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-square-rounded {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-square {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-book-store {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-cafe {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-wheelchair {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-volume-control-telephone {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-sign-language {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-low-vision-access {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-open-captioning {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-closed-captioning {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-braille {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-audio-description {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-assistive-listening-system {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-abseiling {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-tennis {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-skateboarding {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-playground {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-inline-skating {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-hang-gliding {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-climbing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-baseball {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-archery {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-wind-surfing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-scuba-diving {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-sailing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-marina {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-canoe {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-boat-tour {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-boat-ramp {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-swimming {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-whale-watching {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-waterskiing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-surfing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-rafting {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-kayaking {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-jet-skiing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-fishing-pier {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-fish-cleaning {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-diving {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-boating {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-fishing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-cross-country-skiing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-skiing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-snowmobile {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-snowboarding {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-snow {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-snow-shoeing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-sledding {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-ski-jumping {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-ice-skating {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-ice-fishing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-chairlift {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-golf {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-horse-riding {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-motobike-trail {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-trail-walking {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-viewing {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-walking {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-bicycling {
+	text-transform: none; line-height: 1; font-family: "map-icons"; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased;
+}
+.map-icon-map-pin::before {
+	content: "\e000";
+}
+.map-icon-expand::before {
+	content: "\e001";
+}
+.map-icon-fullscreen::before {
+	content: "\e002";
+}
+.map-icon-square-pin::before {
+	content: "\e003";
+}
+.map-icon-route-pin::before {
+	content: "\e004";
+}
+.map-icon-sheild::before {
+	content: "\e005";
+}
+.map-icon-liquor-store::before {
+	content: "\e006";
+}
+.map-icon-bicycle-store::before {
+	content: "\e007";
+}
+.map-icon-hardware-store::before {
+	content: "\e008";
+}
+.map-icon-insurance-agency::before {
+	content: "\e009";
+}
+.map-icon-lawyer::before {
+	content: "\e00a";
+}
+.map-icon-real-estate-agency::before {
+	content: "\e00b";
+}
+.map-icon-art-gallery::before {
+	content: "\e00c";
+}
+.map-icon-campground::before {
+	content: "\e00d";
+}
+.map-icon-bakery::before {
+	content: "\e00e";
+}
+.map-icon-bar::before {
+	content: "\e00f";
+}
+.map-icon-amusement-park::before {
+	content: "\e010";
+}
+.map-icon-aquarium::before {
+	content: "\e011";
+}
+.map-icon-airport::before {
+	content: "\e012";
+}
+.map-icon-bank::before {
+	content: "\e013";
+}
+.map-icon-car-rental::before {
+	content: "\e016";
+}
+.map-icon-car-dealer::before {
+	content: "\e017";
+}
+.map-icon-hospital::before {
+	content: "\e018";
+}
+.map-icon-hair-care::before {
+	content: "\e019";
+}
+.map-icon-gym::before {
+	content: "\e01a";
+}
+.map-icon-grocery-or-supermarket::before {
+	content: "\e01b";
+}
+.map-icon-general-contractor::before {
+	content: "\e01c";
+}
+.map-icon-pharmacy::before {
+	content: "\e01d";
+}
+.map-icon-point-of-interest::before {
+	content: "\e01e";
+}
+.map-icon-political::before {
+	content: "\e01f";
+}
+.map-icon-post-box::before {
+	content: "\e020";
+}
+.map-icon-health::before {
+	content: "\e021";
+}
+.map-icon-post-office::before {
+	content: "\e022";
+}
+.map-icon-real-estate-agency-copy::before {
+	content: "\e023";
+}
+.map-icon-hindu-temple::before {
+	content: "\e024";
+}
+.map-icon-restaurant::before {
+	content: "\e025";
+}
+.map-icon-female::before {
+	content: "\e026";
+}
+.map-icon-male::before {
+	content: "\e027";
+}
+.map-icon-zoo::before {
+	content: "\e028";
+}
+.map-icon-veterinary-care::before {
+	content: "\e029";
+}
+.map-icon-car-repair::before {
+	content: "\e02a";
+}
+.map-icon-university::before {
+	content: "\e02b";
+}
+.map-icon-travel-agency::before {
+	content: "\e02c";
+}
+.map-icon-transit-station::before {
+	content: "\e02d";
+}
+.map-icon-beauty-salon::before {
+	content: "\e02e";
+}
+.map-icon-electronics-store::before {
+	content: "\e02f";
+}
+.map-icon-search::before {
+	content: "\e030";
+}
+.map-icon-zoom-out-alt::before {
+	content: "\e031";
+}
+.map-icon-movie-rental::before {
+	content: "\e032";
+}
+.map-icon-atm::before {
+	content: "\e033";
+}
+.map-icon-jewelry-store::before {
+	content: "\e034";
+}
+.map-icon-car-wash::before {
+	content: "\e035";
+}
+.map-icon-unisex::before {
+	content: "\e036";
+}
+.map-icon-rv-park::before {
+	content: "\e037";
+}
+.map-icon-school::before {
+	content: "\e038";
+}
+.map-icon-clothing-store::before {
+	content: "\e039";
+}
+.map-icon-laundry::before {
+	content: "\e03a";
+}
+.map-icon-casino::before {
+	content: "\e03b";
+}
+.map-icon-place-of-worship::before {
+	content: "\e03c";
+}
+.map-icon-furniture-store::before {
+	content: "\e03d";
+}
+.map-icon-zoom-in-alt::before {
+	content: "\e03e";
+}
+.map-icon-zoom-in::before {
+	content: "\e03f";
+}
+.map-icon-department-store::before {
+	content: "\e040";
+}
+.map-icon-fire-station::before {
+	content: "\e041";
+}
+.map-icon-church::before {
+	content: "\e042";
+}
+.map-icon-library::before {
+	content: "\e043";
+}
+.map-icon-shopping-mall::before {
+	content: "\e044";
+}
+.map-icon-local-government::before {
+	content: "\e045";
+}
+.map-icon-spa::before {
+	content: "\e046";
+}
+.map-icon-convenience-store::before {
+	content: "\e047";
+}
+.map-icon-police::before {
+	content: "\e048";
+}
+.map-icon-route::before {
+	content: "\e049";
+}
+.map-icon-zoom-out::before {
+	content: "\e04a";
+}
+.map-icon-location-arrow::before {
+	content: "\e04b";
+}
+.map-icon-postal-code::before {
+	content: "\e04c";
+}
+.map-icon-locksmith::before {
+	content: "\e04d";
+}
+.map-icon-doctor::before {
+	content: "\e04e";
+}
+.map-icon-mosque::before {
+	content: "\e04f";
+}
+.map-icon-stadium::before {
+	content: "\e050";
+}
+.map-icon-storage::before {
+	content: "\e051";
+}
+.map-icon-movie-theater::before {
+	content: "\e052";
+}
+.map-icon-electrician::before {
+	content: "\e053";
+}
+.map-icon-moving-company::before {
+	content: "\e054";
+}
+.map-icon-postal-code-prefix::before {
+	content: "\e055";
+}
+.map-icon-crosshairs::before {
+	content: "\e056";
+}
+.map-icon-compass::before {
+	content: "\e057";
+}
+.map-icon-dentist::before {
+	content: "\e058";
+}
+.map-icon-plumber::before {
+	content: "\e059";
+}
+.map-icon-museum::before {
+	content: "\e05b";
+}
+.map-icon-finance::before {
+	content: "\e05a";
+}
+.map-icon-parking::before {
+	content: "\e05c";
+}
+.map-icon-courthouse::before {
+	content: "\e05d";
+}
+.map-icon-accounting::before {
+	content: "\e05e";
+}
+.map-icon-store::before {
+	content: "\e05f";
+}
+.map-icon-subway-station::before {
+	content: "\e060";
+}
+.map-icon-natural-feature::before {
+	content: "\e061";
+}
+.map-icon-florist::before {
+	content: "\e062";
+}
+.map-icon-food::before {
+	content: "\e063";
+}
+.map-icon-night-club::before {
+	content: "\e064";
+}
+.map-icon-synagogue::before {
+	content: "\e065";
+}
+.map-icon-taxi-stand::before {
+	content: "\e066";
+}
+.map-icon-painter::before {
+	content: "\e067";
+}
+.map-icon-train-station::before {
+	content: "\e068";
+}
+.map-icon-pet-store::before {
+	content: "\e069";
+}
+.map-icon-gas-station::before {
+	content: "\e06a";
+}
+.map-icon-funeral-home::before {
+	content: "\e06b";
+}
+.map-icon-cemetery::before {
+	content: "\e06c";
+}
+.map-icon-bowling-alley::before {
+	content: "\e06d";
+}
+.map-icon-roofing-contractor::before {
+	content: "\e06e";
+}
+.map-icon-physiotherapist::before {
+	content: "\e06f";
+}
+.map-icon-embassy::before {
+	content: "\e070";
+}
+.map-icon-city-hall::before {
+	content: "\e071";
+}
+.map-icon-bus-station::before {
+	content: "\e072";
+}
+.map-icon-park::before {
+	content: "\e073";
+}
+.map-icon-lodging::before {
+	content: "\e074";
+}
+.map-icon-toilet::before {
+	content: "\e075";
+}
+.map-icon-circle::before {
+	content: "\e076";
+}
+.map-icon-square-rounded::before {
+	content: "\e077";
+}
+.map-icon-square::before {
+	content: "\e078";
+}
+.map-icon-book-store::before {
+	content: "\e014";
+}
+.map-icon-cafe::before {
+	content: "\e015";
+}
+.map-icon-wheelchair::before {
+	content: "\e079";
+}
+.map-icon-volume-control-telephone::before {
+	content: "\e07a";
+}
+.map-icon-sign-language::before {
+	content: "\e07b";
+}
+.map-icon-low-vision-access::before {
+	content: "\e07c";
+}
+.map-icon-open-captioning::before {
+	content: "\e07d";
+}
+.map-icon-closed-captioning::before {
+	content: "\e07e";
+}
+.map-icon-braille::before {
+	content: "\e07f";
+}
+.map-icon-audio-description::before {
+	content: "\e080";
+}
+.map-icon-assistive-listening-system::before {
+	content: "\e081";
+}
+.map-icon-abseiling::before {
+	content: "\e082";
+}
+.map-icon-tennis::before {
+	content: "\e083";
+}
+.map-icon-skateboarding::before {
+	content: "\e084";
+}
+.map-icon-playground::before {
+	content: "\e085";
+}
+.map-icon-inline-skating::before {
+	content: "\e086";
+}
+.map-icon-hang-gliding::before {
+	content: "\e087";
+}
+.map-icon-climbing::before {
+	content: "\e088";
+}
+.map-icon-baseball::before {
+	content: "\e089";
+}
+.map-icon-archery::before {
+	content: "\e08a";
+}
+.map-icon-wind-surfing::before {
+	content: "\e08b";
+}
+.map-icon-scuba-diving::before {
+	content: "\e08c";
+}
+.map-icon-sailing::before {
+	content: "\e08d";
+}
+.map-icon-marina::before {
+	content: "\e08e";
+}
+.map-icon-canoe::before {
+	content: "\e08f";
+}
+.map-icon-boat-tour::before {
+	content: "\e090";
+}
+.map-icon-boat-ramp::before {
+	content: "\e091";
+}
+.map-icon-swimming::before {
+	content: "\e092";
+}
+.map-icon-whale-watching::before {
+	content: "\e093";
+}
+.map-icon-waterskiing::before {
+	content: "\e094";
+}
+.map-icon-surfing::before {
+	content: "\e095";
+}
+.map-icon-rafting::before {
+	content: "\e096";
+}
+.map-icon-kayaking::before {
+	content: "\e097";
+}
+.map-icon-jet-skiing::before {
+	content: "\e099";
+}
+.map-icon-fishing-pier::before {
+	content: "\e09a";
+}
+.map-icon-fish-cleaning::before {
+	content: "\e09b";
+}
+.map-icon-diving::before {
+	content: "\e09c";
+}
+.map-icon-boating::before {
+	content: "\e09d";
+}
+.map-icon-fishing::before {
+	content: "\e098";
+}
+.map-icon-cross-country-skiing::before {
+	content: "\e09e";
+}
+.map-icon-skiing::before {
+	content: "\e09f";
+}
+.map-icon-snowmobile::before {
+	content: "\e0a0";
+}
+.map-icon-snowboarding::before {
+	content: "\e0a1";
+}
+.map-icon-snow::before {
+	content: "\e0a2";
+}
+.map-icon-snow-shoeing::before {
+	content: "\e0a3";
+}
+.map-icon-sledding::before {
+	content: "\e0a4";
+}
+.map-icon-ski-jumping::before {
+	content: "\e0a5";
+}
+.map-icon-ice-skating::before {
+	content: "\e0a6";
+}
+.map-icon-ice-fishing::before {
+	content: "\e0a7";
+}
+.map-icon-chairlift::before {
+	content: "\e0a8";
+}
+.map-icon-golf::before {
+	content: "\e0a9";
+}
+.map-icon-horse-riding::before {
+	content: "\e0aa";
+}
+.map-icon-motobike-trail::before {
+	content: "\e0ab";
+}
+.map-icon-trail-walking::before {
+	content: "\e0ac";
+}
+.map-icon-viewing::before {
+	content: "\e0ad";
+}
+.map-icon-walking::before {
+	content: "\e0ae";
+}
+.map-icon-bicycling::before {
+	content: "\e0af";
+}

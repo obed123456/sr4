@@ -1,0 +1,348 @@
+html {
+	min-width: 910px;
+}
+html.responsive {
+	min-width: 0px;
+}
+.boxed#top {
+	margin: 0px auto; overflow: visible;
+}
+.container {
+	margin: 0px auto; padding: 0px 50px; width: 100%; clear: both; position: relative;
+}
+.inner-container {
+	width: 100%; height: 100%; position: relative;
+}
+.container_wrap {
+	clear: both; border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.unit {
+	margin-left: 50px; float: left; display: inline; position: relative; z-index: 1; min-height: 1px;
+}
+.units {
+	margin-left: 50px; float: left; display: inline; position: relative; z-index: 1; min-height: 1px;
+}
+.row {
+	clear: both; margin-bottom: 20px; position: relative;
+}
+#wrap_all {
+	width: 100%; overflow: hidden; position: static; z-index: 2;
+}
+.boxed #wrap_all {
+	overflow: visible;
+}
+body .unit.alpha {
+	clear: left; margin-left: 0px;
+}
+body .units.alpha {
+	clear: left; margin-left: 0px;
+}
+body div .first {
+	clear: left; margin-left: 0px;
+}
+body .unit.alpha {
+	width: 100%;
+}
+body .units.alpha {
+	width: 100%;
+}
+.container .av-content-full.units {
+	width: 100%;
+}
+.container .av-content-small.units {
+	width: 73%;
+}
+.boxed#top {
+	width: 1010px;
+}
+.html_boxed.html_header_sticky #header {
+	width: 1010px;
+}
+.container {
+	max-width: 1010px;
+}
+@media only screen and (max-width:989px) and (min-width:768px)
+{
+.responsive #top {
+	-ms-overflow-x: hidden;
+}
+.responsive .boxed#top {
+	width: 782px;
+}
+.responsive.html_boxed.html_header_sticky #header {
+	width: 782px;
+}
+.responsive .container {
+	max-width: 782px;
+}
+.responsive.html_mobile_menu_tablet .boxed #wrap_all {
+	overflow: hidden;
+}
+}
+@media only screen and (max-width:767px)
+{
+.responsive .boxed #wrap_all {
+	overflow: hidden;
+}
+.responsive #top {
+	-ms-overflow-x: hidden;
+}
+.responsive .boxed#top {
+	width: 100%; max-width: 100%;
+}
+.responsive .boxed#top .stretch_full {
+	width: 100%; max-width: 100%;
+}
+.responsive.html_boxed.html_header_sticky #header {
+	width: 100%; max-width: 100%;
+}
+.responsive.html_boxed.html_header_transparency div #header {
+	width: 100%; max-width: 100%;
+}
+.responsive #top .flex_column_table_cell {
+	display: block;
+}
+.responsive #top .flex_column_table {
+	display: block;
+}
+.responsive #top #wrap_all .container {
+	margin: 0px auto; width: 85%; padding-right: 0px; padding-left: 0px; float: none; max-width: 85%;
+}
+.responsive .units {
+	margin: 0px;
+}
+.responsive .unit {
+	margin: 0px;
+}
+.responsive #top .container .av-content-small {
+	margin: 0px 0px 20px; width: 100%;
+}
+.responsive #top #wrap_all .flex_column {
+	margin: 0px 0px 20px; width: 100%;
+}
+.responsive #top #wrap_all .av-flex-cells .no_margin {
+	margin: 0px 0px 20px; width: 100%;
+}
+.responsive #top #wrap_all .av-flex-cells .no_margin {
+	margin: 0px; height: auto !important; overflow: hidden; padding-right: 8% !important; padding-left: 8% !important; display: block;
+}
+.responsive #top #wrap_all .av-flex-cells .no_margin .flex_cell_inner {
+	margin: 0px auto; width: 100%; max-width: 100%;
+}
+.responsive #top #wrap_all .av-flex-cells .no_margin.av-zero-padding {
+	padding-right: 0% !important; padding-left: 0% !important;
+}
+.responsive #top #wrap_all :empty.flex_column {
+	margin: 0px;
+}
+}
+.container::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: "\0020";
+}
+.clearfix::before {
+	width: 0px; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "\0020";
+}
+.clearfix::after {
+	width: 0px; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "\0020";
+}
+.flex_column::before {
+	width: 0px; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "\0020";
+}
+.flex_column::after {
+	width: 0px; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "\0020";
+}
+.widget::before {
+	width: 0px; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "\0020";
+}
+.widget::after {
+	width: 0px; height: 0px; overflow: hidden; display: block; visibility: hidden; content: "\0020";
+}
+.flex_column::after {
+	clear: both;
+}
+.clearfix::after {
+	clear: both;
+}
+.row {
+	-ms-zoom: 1;
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+.clear {
+	width: 0px; height: 0px; overflow: hidden; clear: both; display: block; visibility: hidden;
+}
+body div .first {
+	margin-left: 0px;
+}
+body div .no_margin {
+	margin-left: 0px;
+}
+div .flex_column {
+	width: 100%; float: left; position: relative; z-index: 1; min-height: 1px;
+}
+div .av_one_fifth {
+	width: 15.2%; margin-left: 6%;
+}
+div .av_one_fourth {
+	width: 20.5%; margin-left: 6%;
+}
+div .av_one_third {
+	width: 29.33%; margin-left: 6%;
+}
+div .av_two_fifth {
+	width: 36.4%; margin-left: 6%;
+}
+div .av_one_half {
+	width: 47%; margin-left: 6%;
+}
+div .av_three_fifth {
+	width: 57.59%; margin-left: 6%;
+}
+div .av_two_third {
+	width: 64.66%; margin-left: 6%;
+}
+div .av_three_fourth {
+	width: 73.5%; margin-left: 6%;
+}
+div .av_four_fifth {
+	width: 78.8%; margin-left: 6%;
+}
+div .av_one_sixth {
+	width: 11.66%; margin-left: 6%;
+}
+div .av_one_seventh {
+	width: 9.14%; margin-left: 6%;
+}
+div .av_one_eighth {
+	width: 7.25%; margin-left: 6%;
+}
+div .av_one_nineth {
+	width: 5.77%; margin-left: 6%;
+}
+div .av_one_tenth {
+	width: 4.6%; margin-left: 6%;
+}
+#top div .no_margin {
+	margin-top: 0px; margin-left: 0px;
+}
+#top .no_margin.av_one_fifth {
+	width: 20%;
+}
+#top .no_margin.av_one_fourth {
+	width: 25%;
+}
+#top .no_margin.av_one_third {
+	width: 33.3%;
+}
+#top .no_margin.av_two_fifth {
+	width: 40%;
+}
+#top .no_margin.av_one_half {
+	width: 50%;
+}
+#top .no_margin.av_three_fifth {
+	width: 60%;
+}
+#top .no_margin.av_two_third {
+	width: 66.6%;
+}
+#top .no_margin.av_three_fourth {
+	width: 75%;
+}
+#top .no_margin.av_four_fifth {
+	width: 80%;
+}
+#top .no_margin.av_one_sixth {
+	width: 16.66%;
+}
+#top .no_margin.av_one_seventh {
+	width: 14.28%;
+}
+#top .no_margin.av_one_eighth {
+	width: 12.5%;
+}
+#top .no_margin.av_one_nineth {
+	width: 11.11%;
+}
+#top .no_margin.av_one_tenth {
+	width: 10%;
+}
+#top .flex_column_table {
+	width: 100%; display: table; table-layout: fixed;
+}
+#top .flex_column_table_cell {
+	float: none; display: table-cell;
+}
+#top .av-flex-placeholder {
+	width: 6%; display: table-cell;
+}
+.av-align-top {
+	vertical-align: top;
+}
+.av-align-middle {
+	vertical-align: middle;
+}
+.av-align-bottom {
+	vertical-align: bottom;
+}
+@media only screen and (max-width:989px) and (min-width:768px)
+{
+.responsive .av_one_fourth.first.el_before_av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .av_one_fourth.first + .av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_fourth + .av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .av_one_half.first + .av_one_fourth.el_before_av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .av_one_half.first + .av_one_fourth.el_before_av_one_fourth + .av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .avia-content-slider-inner .av_one_fourth.flex_column_div {
+	width: 48%; margin-left: 4%;
+}
+.responsive .av_one_fourth.first.el_before_av_one_fourth.flex_column_div {
+	clear: both; margin-left: 0%;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_fourth.flex_column_div {
+	clear: both; margin-left: 0%;
+}
+.responsive .av_one_half.first + .av_one_fourth.el_before_av_one_fourth.flex_column_div {
+	clear: both; margin-left: 0%;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_half.flex_column_div {
+	clear: both; margin-left: 0%;
+}
+.responsive .avia-content-slider-inner .av_one_fourth.first.flex_column_div {
+	clear: both; margin-left: 0%;
+}
+.responsive .av_one_half.first.el_before_av_one_fourth.flex_column_div {
+	width: 100%;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_half.flex_column_div {
+	width: 100%;
+}
+.responsive .av_one_half.first + .av_one_fourth.flex_column_div {
+	margin-top: 30px;
+}
+.responsive .av_one_half.first + .av_one_fourth + .av_one_fourth.flex_column_div {
+	margin-top: 30px;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_fourth.flex_column_div {
+	margin-top: 30px;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_fourth + .av_one_fourth.flex_column_div {
+	margin-top: 30px;
+}
+.responsive .av_one_fourth.first + .av_one_fourth + .av_one_half.flex_column_div {
+	margin-top: 30px;
+}
+}

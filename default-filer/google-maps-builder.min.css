@@ -1,0 +1,204 @@
+div[id^=google-maps-builder] .gmb-infobubble .place-description {
+	white-space: normal;
+}
+div[id^=google-maps-builder] div.gmb-infobubble > div {
+	white-space: normal;
+}
+.gmb-clearfix::after {
+	clear: both; display: table; content: "";
+}
+.google-maps-builder {
+	width: 100%; height: 500px; min-height: 275px;
+}
+div[id^=google-maps-builder] div[class*='_ibani_'] {
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+div[id^=google-maps-builder] iframe.gm-save-widget {
+	margin: 0px; padding: 0px;
+}
+div[id^=google-maps-builder] img {
+	max-width: none; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;
+}
+div[id^=google-maps-builder] .gmb-infobubble {
+	margin: 0px; padding: 0px; cursor: default; box-sizing: border-box;
+}
+div[id^=google-maps-builder] .gmb-infobubble div.place-description {
+	margin: 0px 0px 7px; color: rgb(44, 44, 44); font-size: 13px;
+}
+div[id^=google-maps-builder] .gmb-infobubble p {
+	margin: 0px 0px 7px; color: rgb(44, 44, 44); font-size: 13px;
+}
+div[id^=google-maps-builder] .gmb-infobubble div.place-description {
+	margin-bottom: 0px;
+}
+div[id^=google-maps-builder] .gmb-infobubble p.place-title {
+	line-height: 21px; font-family: Roboto,Arial,sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 0px; white-space: normal; min-height: 21px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .place-description + .marker-info-wrapper {
+	margin-top: 8px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .place-title + .marker-info-wrapper {
+	margin-top: 8px;
+}
+div[id^=google-maps-builder] .gmb-infobubble p.place-title + div.place-description {
+	margin-top: 8px;
+}
+div[id^=google-maps-builder] .gmb-infobubble img {
+	max-width: 100%;
+}
+div[id^=google-maps-builder] .gmb-infobubble .place-thumb {
+	margin: 0px 0px 10px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .loading {
+	background: url("../img/loading-large.gif") no-repeat center rgb(255, 255, 255); height: 60px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .rating-wrap {
+	margin: 0px 0px 3px; text-align: right; overflow: hidden;
+}
+div[id^=google-maps-builder] .gmb-infobubble .rating-wrap .numeric-rating {
+	margin: 0px 5px 0px 0px; color: rgb(221, 75, 57); line-height: 1; font-size: 16px; font-weight: 400; display: inline-block;
+}
+div[id^=google-maps-builder] .gmb-infobubble .rating-wrap .star-rating-wrap {
+	background: url("../img/review_stars.png") no-repeat; margin: 1px 0px 0px; width: 67px; height: 13px; display: inline-block;
+}
+div[id^=google-maps-builder] .gmb-infobubble .rating-wrap .star-rating-size {
+	background: url("../img/review_stars.png") no-repeat 0px -13px; height: 13px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .gmb-mashup-single-link {
+	margin: 8px 0px; font-size: 14px; display: block;
+}
+div.gmb-infobubble-container {
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper {
+	padding: 12px; overflow: hidden; font-size: 13px; display: block; min-width: 260px; background-color: rgb(241, 241, 241);
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper span.place-icon {
+	background: url("../img/google-icons.png") no-repeat; margin: 0px 2px -6px -3px; width: 20px; height: 20px; display: inline-block;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-address {
+	width: 50%; text-align: left; font-style: italic; float: left;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-address .place-directions-link {
+	margin: 3px 0px 0px; display: block;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-address .place-directions-link > span {
+	background-position: 0px -226px; margin-right: 0px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-phone {
+	margin: 0px 0px 3px; text-align: right;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-phone span.place-icon {
+	background-position: 0px -355px;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-website {
+	text-align: right;
+}
+div[id^=google-maps-builder] .gmb-infobubble .marker-info-wrapper .place-website span.place-icon {
+	background-position: 0px -291px;
+}
+@media screen and (max-width:440px)
+{
+.gmb-infobubble {
+	overflow: visible; min-width: inherit;
+}
+}
+div[id^=google-maps-builder] .marker-label {
+	width: 50px; height: 50px; text-align: center; color: rgb(255, 255, 255); line-height: 1; font-size: 28px; margin-top: -50px; margin-left: -25px; display: block; white-space: nowrap; position: absolute; z-index: 99;
+}
+.google-maps-builder-wrap {
+	overflow: hidden; position: relative;
+}
+div[id^=directions-panel] {
+	margin: 20px 0px; font-size: 16px; display: none;
+}
+div[id^=directions-panel] div.adp {
+	margin: 0px 0px 25px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+div[id^=directions-panel] div.adp-summary {
+	padding: 3px 10px 3px 5px; background-color: rgb(247, 247, 247);
+}
+div[id^=directions-panel] div.adp-legal {
+	background: rgb(247, 247, 247); padding: 2px 4px; text-align: right; font-size: 10px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+div[id^=directions-panel] .adp-substep .adp-stepicon {
+	margin: 0px auto;
+}
+div[id^=directions-panel].panel-below {
+	margin: 20px 0px; display: block;
+}
+div[id^=directions-panel].panel-below .gmb-directions-toggle {
+	display: none;
+}
+div[id^=directions-panel] table {
+	margin: 0px; border: currentColor; border-image: none;
+}
+div[id^=directions-panel] table td {
+	padding: 4px; border: currentColor; border-image: none; vertical-align: middle;
+}
+div[id^=directions-panel] table img {
+	max-width: none; box-shadow: none;
+}
+div[id^=directions-panel] table.adp-directions {
+	font-size: 16px; table-layout: auto;
+}
+div[id^=directions-panel] table.adp-directions td:first-of-type.adp-substep {
+	vertical-align: middle;
+}
+div[id^=directions-panel] table.adp-placemark td.adp-text {
+	border: currentColor; border-image: none; padding-left: 35px; font-size: 20px;
+}
+div[id^=directions-panel] table.adp-placemark img.adp-marker {
+	padding: 8px 0px 8px 8px; display: block;
+}
+@media all and (max-width:767px)
+{
+div[id^=directions-panel] table td {
+	padding: 2px;
+}
+}
+div[id^=directions-panel].panel-overlay {
+	margin: 0px; top: 0px; height: 100%; right: -50%; display: block; position: absolute; max-height: 100%; max-width: 50%; box-sizing: border-box; background-color: rgb(255, 255, 255);
+}
+div[id^=directions-panel].panel-overlay .gmb-directions-toggle {
+	left: -40px; top: 40%; width: 40px; height: 40px; position: absolute; background-color: rgb(255, 255, 255);
+}
+div[id^=directions-panel].panel-overlay .gmb-directions-toggle .gmb-directions-icon {
+	background: url("../img/directions-icon.png") no-repeat center rgb(255, 255, 255); transition:0.2s linear; width: 40px; height: 40px; display: block; cursor: pointer; opacity: 0.5; -webkit-transition: .2s all linear; -moz-transition: .2s all linear; -o-transition: .2s all linear;
+}
+#places-search #type-selector input[type=radio] {
+	display: none;
+}
+div[id^=directions-panel].panel-overlay .gmb-directions-toggle .gmb-hide-text {
+	display: none;
+}
+div[id^=directions-panel].panel-overlay .gmb-directions-toggle .gmb-directions-icon:hover {
+	opacity: 0.8;
+}
+div[id^=directions-panel].panel-overlay .gmb-directions-panel-inner {
+	padding: 5px; height: 100%; -ms-overflow-y: scroll;
+}
+#places-search {
+	margin-top: 30px;
+}
+#places-search .controls {
+	outline: 0px; border-radius: 2px 0px 0px 2px; border: 1px solid transparent; border-image: none; height: 32px; box-sizing: border-box; box-shadow: 0px 2px 6px rgba(0,0,0,0.3); -moz-box-sizing: border-box;
+}
+#places-search #pac-input {
+	margin: 0px; padding: 0px 11px 0px 13px; width: 400px; font-family: Roboto; font-size: 15px; font-weight: 300; -ms-text-overflow: ellipsis; background-color: rgb(255, 255, 255);
+}
+#places-search #pac-input:focus {
+	border-color: rgb(77, 144, 254);
+}
+#places-search .pac-container {
+	font-family: Roboto;
+}
+#places-search #type-selector {
+	padding: 0px 11px; height: 30px; color: rgb(255, 255, 255); overflow: hidden; background-color: rgb(77, 144, 254);
+}
+#places-search #type-selector label {
+	padding: 4px 8px 2px; border-radius: 0px 0px 4px 4px; line-height: 24px; font-family: Roboto; font-size: 13px; font-weight: 300; margin-right: 15px; cursor: pointer;
+}
+#places-search #type-selector input[type=radio]:checked + label {
+	background-color: rgb(68, 126, 224);
+}
